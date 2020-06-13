@@ -4,6 +4,6 @@ import Layout from '../components/Layout';
 
 export default function Home() {
   return (
-    <App Component={Layout}/>
+    <App Component={Layout} pageProps={Layout}/>
   );
 }

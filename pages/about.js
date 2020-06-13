@@ -1,13 +1,10 @@
-import Link from 'next/link'
-
-import Layout from '../components/Layout';
-
+import Link from 'next/link';
 
 export default function About (){
   return (
-    <Layout>
+    <div>
       <h1>About page</h1>
       <Link href="/"><a>Home</a></Link>
-    </Layout>
+    </div>
   );
 }
