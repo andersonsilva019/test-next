@@ -1,8 +1,27 @@
-body {
-    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-      'Arial', sans-serif;
-    padding: 20px 20px 60px;
-    max-width: 1220px;
-    margin: 0 auto;
-    background: #651FFF;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+html, body, #__next{
+    height: 100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased !important;
+}
+body, input, button, textarea{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
