@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Layout from '../components/Layout';
 
 export default function About (){
@@ -12,7 +11,6 @@ export default function About (){
           width: 100%;
           max-width: 1120px;
           margin: 20px auto;
-
         }
       
       `}</style>

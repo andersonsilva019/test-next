@@ -1,7 +1,4 @@
 import Layout from '../components/Layout';
-import Link from 'next/link';
-import Head from 'next/head';
-
 
 const myStyle = {
   color: "#651FFF",
@@ -14,9 +11,6 @@ export default function Home() {
     <Layout>
       <div className="container">
         <div className="content">
-          <Head>
-            <title>Nextjs | focused </title>
-          </Head>
 
           <h1>Hello world Nextjs</h1>
           

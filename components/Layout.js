@@ -1,10 +1,16 @@
 import Nav from './Nav';
+import Head from 'next/head';
 
 
 export default function Layout({children}){
   return(
     <div className="container-global">
+      <Head>
+        <title>Nextjs | focused </title>
+      </Head>
+
       <Nav/>
+
       {children}
       <style global jsx>
         {`
