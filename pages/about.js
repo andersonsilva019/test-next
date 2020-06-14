@@ -1,20 +1,22 @@
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 export default function About (){
   return (
-    <div className="container">
-      <h1>About page</h1>
-      <Link href="/"><a>Home</a></Link>
-
-
+    <Layout>
+      <div className="content">
+        <h1>About page</h1>
+      </div>    
       <style jsx>{`
-        .container {
-          background: #651FFF;
-          height: 100%;
+        .content {
+          width: 100%;
+          max-width: 1120px;
+          margin: 20px auto;
+
         }
-      `}</style>
       
-    </div>
+      `}</style>
+    </Layout>
   );
 }
 

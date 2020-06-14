@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 export default function Layout({children}){
   return(
-    <div>
+    <div className="container-global">
       <Nav/>
       {children}
       <style global jsx>
@@ -22,7 +22,6 @@ export default function Layout({children}){
           
           body{
               -webkit-font-smoothing: antialiased !important;
-              background: #256fff;
           }
           body, input, button, textarea{
               font-family: 'Roboto', Arial, sans-serif;
@@ -35,6 +34,14 @@ export default function Layout({children}){
           }
           button{
               cursor: pointer;
+          }
+        `}
+      </style>
+      <style jsx>
+        {`
+          .container-global{
+            width: 100%;
+            height: 100%;
           }
         `}
       </style>
